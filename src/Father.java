@@ -12,8 +12,8 @@ abstract public class Father {
         System.out.println("Private method of father");
     }
     public static void main(String[] args) {
-        Father father = new Father();
-        father.privateMethodOfFather();
+        // Father father = new Father(); // Abstract
+        //father.privateMethodOfFather();
     }
     
 }
