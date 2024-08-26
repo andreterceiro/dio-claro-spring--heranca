@@ -68,3 +68,7 @@ Public method of father implementd in the Child class
 Public method of child
 Public method of father implementd in the Child class
 ```
+
+**Os testes evoluíram e fiz testes semelhante com PHP [neste repositório](https://github.com/andreterceiro/dio-heranca-teste-com-php).
+
+[Tutorial](https://pt.stackoverflow.com/questions/23/qual-%C3%A9-a-diferen%C3%A7a-entre-modificadores-public-default-protected-e-private).
