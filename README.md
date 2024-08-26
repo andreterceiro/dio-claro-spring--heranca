@@ -74,3 +74,5 @@ Public method of father implementd in the Child class
 [Tutorial](https://pt.stackoverflow.com/questions/23/qual-%C3%A9-a-diferen%C3%A7a-entre-modificadores-public-default-protected-e-private).
 
 Em relação ao `"overrides"`,veja que não existe isto e sim um `@override`. **Existe em C# e não em Java**. A finalidade do `@override` é mostrada [aqui](https://pt.stackoverflow.com/questions/22913/qual-a-finalidade-da-override). O que entendi: como o método a ser sobrescrito **não** é abstrato, se mudar o nome de `imprime` para `imprimir` na classe pai, na classe filha não ocorreria um erro a não ser que se tenha o `@override` que obrigaria a sobrescrita de método. não confunda, em um exemplo é mostrado que o `@override` é escrito **na classe filha**.
+
+Em relação ao `protected`, veja no teste mostrado pelo professor no vídeo da DIO, a teoria é exatamente esta que funcionou no meu teste em PHP: em uma instância eu não posso chamar um método `protected`, mas em uma filha posso. A diferença para a visibilidade default é que esta restringe ainda mais: a má e a filha precisam estar no mesmo pacote. Na visibilidade `protected` não precisa.
